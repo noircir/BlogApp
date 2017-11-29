@@ -138,5 +138,5 @@ app.delete("/blogs/:id", function(req,res) {
     });
 });
 app.listen(process.env.PORT, process.env.IP, function() {
-    console.log("The YelpCamp server has started, port: " + process.env.PORT + ", IP: " + process.env.IP);
+    console.log("The Blog server has started, port: " + process.env.PORT + ", IP: " + process.env.IP);
 });
